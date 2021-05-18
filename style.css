@@ -1,0 +1,216 @@
+*{ margin:0; 
+	padding:0;  
+	box-sizing: border-box;   
+font-family: 'almendra', monospace;
+	 }  
+
+#load{ 
+position:  fixed ; 
+
+width: 100%;
+height: 100vh; 
+background: white 
+url('1486.gif') 
+no-repeat center; 
+z-index: 99999; }
+
+	 header{ width:100%; 
+	 	 height:100vh; 
+	 	/* background-image: url('pablopicaso.png'); 
+	 	 background-repeat: no-repeat; 
+	 	 background-size: 100% 50%; 
+	 	 background-attachment: fixed; */
+	  }  
+
+	  .bi{ width: 100%; 
+	  	 height: 60vh;
+	  background-image: url('yk.png');
+	    } 
+
+	  .mainheader{ 
+	  width:100%;  
+	  height:100px; 
+	  display: flex; 
+	  justify-content: space-between; 
+	  align-items: center 
+
+	} 
+	.mainheader nav{  
+	width: 100%; 
+	display:flex; 
+    justify-content: space-around; 
+   
+    padding-right: 50px;  }    
+
+  .mainheader a{ 
+  text-decoration: none; 
+  color:black; 
+   text-transform: uppercase; }  
+
+   .name { 
+   text-decoration: none; 
+   font-style: inherit; 
+   font-size: 50px; 
+   color:white;  
+   transform: translate(-2%, 10%);
+   text-transform: uppercase; 
+   text-align: center; 
+    }
+
+  .mainheader button{ 
+  padding: 10px 40px; 
+  text-align: center; 
+  font-size:14px; 
+  color: #fff; 
+  border:none; 
+  background-image: url('yk.png');  
+
+    }  
+   .h1 { 
+   	font-style: italic; 
+   	font-size: 200px; 
+   	text-align: center; 
+   	color: black; s
+    }
+.sidebar{ 
+ width:50%; 
+  
+display:flex; 
+ justify-content: center;  
+  align-items: center; 
+ height: 700px;
+width: 2030px;
+ position:relative;  
+
+ left:20%; 
+ top:50%;  
+ transform: translate(-25%, 10%);
+ background-image: url('poem.png');  
+ background-size: 100% 100%; 
+ box-shadow: 1px 2px 10px 5px black; 
+ animation: slider 15s infinite linear;
+ } 
+
+  @keyframes slider{ 
+  0%{background-image: url('poem.png'); } 
+  40%{background-image: url('art.jpg')} 
+  70%{background-image: url('almonds.jpg')} }  
+
+
+ /* .slider{ 
+  overflow: hidden; 
+   }
+.slider figure{ 
+position: relative; 
+width:500px; 
+margin:0; 
+left:0; 
+animation: 20s slider infinite;  
+ } 
+
+ @keyframes slider{ 
+ 0%{ background-image: url('adi.png'); }
+ 40%{ background-image: url('black.jpg')  } } */
+
+ 
+.me{ 
+text-align: left; } 
+
+.name{  
+	position:relative; 
+	text-align: center; 
+	color:yellow;
+	height: 1000px;  
+
+ } 
+ 
+ /*.icons{ 
+ height: 100vh; 
+ display: flex; 
+ justify-content: center; 
+ align-items: center; } 
+
+ a{ 
+ height: 100px; 
+ width: 100px; 
+ background-color: pink; 
+ border-radius: 50px; 
+ text-align: center;  
+margin: 10px; 
+line-height: 10px; 
+box-shadow:  1px 4px 2px 2px #FFE5B4 } 
+a i { 
+transition:  all 0.3s linear;  }  
+
+a:hover i{ 
+transform:  scale(1.4); } 
+.fa-instagram{ 
+color:pink; } */ 
+
+.cm{ 
+ text-align: center; }
+
+.h2{ 
+ font-weight: lighter; 
+ font-size: 100px; 
+ color:black; 
+ text-align: center; 
+ padding-top: 50px; } 
+
+ .icons { 
+ position: absolute; 
+ top: 40%; 
+ left: 50%; 
+ transform: translate(-50%,2150%); 
+  }
+
+ li { list-style: none; 
+ 	margin: 10px 30px;
+    display: inline-block; 
+    font-size: 20px; 
+    padding: 20px 20px; 
+    color: black; 
+    border: 1px solid black; 
+    border-radius: 50%; 
+    transition:.5s; }
+      
+    .fai{  color: #3b5998;
+  background-image: linear-gradient( to bottom, transparent 20%, white 20%, white 93%, transparent 93% );
+  background-size: 55%;
+  background-position: 70% 0;
+  background-repeat: no-repeat;
+} 
+
+ .instagram {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+          /* Also define standard property for compatibility */
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  font-size: 20px; /* change this to change the size*/
+  
+}
+
+
+     li: hover {  
+     	color: black; 
+border: 1px solid black; 
+transition: .5s;
+      } 
+
+      .thanks{ 
+      font-size: 20px; 
+      font-style: normal; 
+      color: magenta;  } 
+
+      .asdf{ 
+      text-align: center; 
+       } 
+       .pro{ 
+       text-align: center; } 
+       .abo{ 
+       text-align: center;
+       padding-left: 500px; 
+       padding-right: 500px; } 
+
